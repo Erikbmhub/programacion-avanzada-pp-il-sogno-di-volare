@@ -51,9 +51,7 @@ class Gallery {
     for (let i = 0; i < this.civilImages.length; i++) {
       todasImagenenes.push(this.civilImages[i]);
      // console.log("for1"+this.civilImages[i]);
-      
-  
-      
+            
     }
     for (let i = 0; i < this.militaryImages.length; i++) {
       todasImagenenes.push(this.militaryImages[i]);
@@ -110,5 +108,4 @@ const tipo = Math.floor(Math.random() * 2);
             const indice = Math.floor(Math.random() * this.civilHelicopters.length);
             return this.civilHelicopters[indice];
         }
-
         */
